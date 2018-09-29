@@ -1,0 +1,185 @@
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: normal
+
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold
+
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Light.ttf);
+    font-weight: 300
+
+}
+
+body {
+    margin: 0;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300
+
+}
+
+ul {
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff
+
+}
+
+a:focus,
+a:hover,
+a:visited,
+a:active {
+    text-decoration: none
+}
+
+img {
+    display: block
+}
+
+/*
+////////////////////
+/////////////////////////////////////////////
+///////
+*/
+
+body > img {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    right: 50%
+}
+
+header {
+    background-image: url(img/Photo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden
+
+}
+
+header > div {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 15px;
+    padding-top: 30px;
+    box-sizing: border-box
+
+}
+
+header > div img {
+    margin-top: 5px;
+    width: 130px
+
+}
+
+header > div  nav {
+    margin-left: auto;
+    margin-right: -25px
+
+}
+
+header > div ul {
+    display: flex
+}
+
+header > div ul a {
+    padding: 10px 25px;
+    border-radius: 19px;
+    transition: .3s;
+    font-size: 1em
+
+}
+
+header > div ul li:not(:first-child) a {
+    margin-left: 10px
+}
+
+header > div ul a:hover {
+    background-color: #ffffff;
+    color: #2ecc71
+
+}
+
+header > section > div {
+    box-sizing: border-box;
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+    padding: 0 15px
+
+}
+
+header > section > div > div:first-child {
+    flex-basis: 60%;
+    height: calc(100vh - 88px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center
+
+}
+
+header > section > div > div:first-child > img {
+    margin-bottom: 70px
+}
+
+header > section > div > div:last-child {
+    flex-basis: 40%;
+    padding-left: 8%;
+    padding-top: 30px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+header > section > div > div:last-child img {
+    width: 100%;
+}
+
+header > section > div > div:first-child > h1 {
+    font-size: 3.56em;
+    font-weight: 300;
+    margin-bottom: 0
+}
+
+header > section > div > div:first-child > h1 > mark {
+    background: transparent;
+    font-weight: bold;
+    color: #ffffff
+}
+
+header > section > div > div:first-child > p {
+    line-height: 1.7
+}
+
+header > section > div > div:first-child > ul {
+    display: flex;
+}
+
+header > section > div > div:first-child > ul > li {
+    margin-right: 20px
+}
